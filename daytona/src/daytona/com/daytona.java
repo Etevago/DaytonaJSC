@@ -2,7 +2,7 @@ package daytona.com;
 
 public class daytona {
 	
-	public static String veredicto (String valor1, String valor2) {
+	private static String veredicto (String valor1, String valor2) {
 		
 	if (valor1.equals(valor2)) {
 	    return "Perfecto. Has tenido buen criterio.";
@@ -11,6 +11,9 @@ public class daytona {
 	    return "Has mejorado, o te ha llegado el éxito inesperado.";
 	}
 	return "Te has confiado. Falta realismo.";	
+	
+	/*Este metodo nos permite comparar los valores de los argumentos que
+	 hemos intruducido, y devuelve un mensaje acorde al resultado*/
 	
 	}
 
